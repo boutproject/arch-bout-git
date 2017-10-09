@@ -2,7 +2,7 @@
 # Contributor: 
 
 pkgname=bout++-git
-pkgver=v4.0.0.r734.g8a7cf069
+pkgver=v4.1.0.r2.gdc75443e
 
 pkgver() {
   cd "$srcdir/BOUT-dev"
@@ -18,7 +18,7 @@ license=('LGPL')
 
 depends=('fftw' 'netcdf-cxx' 'openmpi')
 makedepends=('git')
-source=("git+https://github.com/boutproject/BOUT-dev.git#branch=v4.1-RC")
+source=("git+https://github.com/boutproject/BOUT-dev.git#branch=master")
 md5sums=('SKIP')
 
 conflicts=('bout++')
